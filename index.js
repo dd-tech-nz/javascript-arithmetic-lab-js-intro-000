@@ -15,7 +15,7 @@ function divide (a, b) {
 }
 
 function inc (n) {
-  return n=+ 1
+  return n=+1
 }
 
 function dec (n) {
@@ -26,6 +26,4 @@ function makeInt (n) {
   return parseInt(n, 10)
 }
 
-preserveDecimal (n) {
-  return parseFloat(n)
-}
+
